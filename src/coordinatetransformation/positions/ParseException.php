@@ -17,6 +17,8 @@
  * License: http://creativecommons.org/licenses/by-nc-sa/3.0/
  */
 
+namespace coordinatetransformation\position;
+
 /**
  * Signals that an error has been reached unexpectedly while parsing. 
  * 

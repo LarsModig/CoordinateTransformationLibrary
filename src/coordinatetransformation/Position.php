@@ -17,6 +17,9 @@
  * License: http://creativecommons.org/licenses/by-nc-sa/3.0/
  */
 
+namespace coordinatetransformation;
+
+
 abstract class Grid {
   const RT90 = 0;
   const WGS84 = 1;

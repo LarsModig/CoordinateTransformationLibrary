@@ -17,8 +17,9 @@
  * License: http://creativecommons.org/licenses/by-nc-sa/3.0/
  */
 
-require_once dirname(__FILE__) . '/../Position.php';
-require_once dirname(__FILE__) . '/ParseException.php';
+namespace coordinatetransformation\position;
+
+use coordinatetransformation\Position;
 
 abstract class WGS84Format {
   const Degrees = 0;

@@ -17,9 +17,10 @@
  * License: http://creativecommons.org/licenses/by-nc-sa/3.0/
  */
 
+namespace coordinatetransformation\position;
 
-require_once dirname(__FILE__) . '/../GaussKreuger.php';
-require_once dirname(__FILE__) . '/../Position.php';
+use coordinatetransformation\GaussKreuger;
+use coordinatetransformation\Position;
 
 abstract class SWEREFProjection {
   const sweref_99_tm = 0;

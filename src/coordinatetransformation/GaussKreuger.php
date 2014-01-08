@@ -16,6 +16,9 @@
  * 
  * License: http://creativecommons.org/licenses/by-nc-sa/3.0/
  * */
+
+namespace coordinatetransformation;
+
 class GaussKreuger {
 
     protected $axis; // Semi-major axis of the ellipsoid.

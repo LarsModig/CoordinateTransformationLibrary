@@ -17,8 +17,10 @@
  * License: http://creativecommons.org/licenses/by-nc-sa/3.0/
  */
 
-require_once dirname(__FILE__) . '/../GaussKreuger.php';
-require_once dirname(__FILE__) . '/../Position.php';
+namespace coordinatetransformation\position;
+
+use coordinatetransformation\GaussKreuger;
+use coordinatetransformation\Position;
 
 abstract class RT90Projection {
     const rt90_7_5_gon_v = 0;
