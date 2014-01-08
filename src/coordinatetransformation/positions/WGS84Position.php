@@ -17,9 +17,10 @@
  * License: http://creativecommons.org/licenses/by-nc-sa/3.0/
  */
 
-namespace coordinatetransformation\position;
+namespace coordinatetransformation\positions;
 
 use coordinatetransformation\Position;
+use coordinatetransformation\Grid;
 
 abstract class WGS84Format {
   const Degrees = 0;

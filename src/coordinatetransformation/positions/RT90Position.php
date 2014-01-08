@@ -17,10 +17,11 @@
  * License: http://creativecommons.org/licenses/by-nc-sa/3.0/
  */
 
-namespace coordinatetransformation\position;
+namespace coordinatetransformation\positions;
 
 use coordinatetransformation\GaussKreuger;
 use coordinatetransformation\Position;
+use coordinatetransformation\Grid;
 
 abstract class RT90Projection {
     const rt90_7_5_gon_v = 0;

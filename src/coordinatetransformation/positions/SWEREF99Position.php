@@ -17,7 +17,7 @@
  * License: http://creativecommons.org/licenses/by-nc-sa/3.0/
  */
 
-namespace coordinatetransformation\position;
+namespace coordinatetransformation\positions;
 
 use coordinatetransformation\GaussKreuger;
 use coordinatetransformation\Position;
